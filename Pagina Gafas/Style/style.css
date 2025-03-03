@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000 !important;
+}
+
+.navbar-brand {
+    color: #D4AF37 !important;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #D4AF37 !important;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://source.unsplash.com/1600x900/?colombia,ciudad') no-repeat center center/cover;
+    color: #FFFFFF;
+}
+
+#hero .btn-warning {
+    background-color: #D4AF37;
+    border: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+#hero .btn-warning:hover {
+    background-color: #b8942b;
+}
+
+/* Sección de Características */
+#caracteristicas .card {
+    background-color: #1a1a1a;
+    border: 2px solid #D4AF37;
+    color: #FFFFFF;
+}
+
+#caracteristicas .card-title {
+    color: #D4AF37;
+}
+
+/* Galería */
+#galeria {
+    background-color: #000000;
+}
+
+#galeria h2 {
+    color: #D4AF37;
+}
+
+#galeria .img-fluid {
+    border: 3px solid #D4AF37;
+    border-radius: 10px;
+}
+
+#galeria p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#contacto .form-control {
+    background-color: #1a1a1a; /* Un gris oscuro en lugar de negro puro */
+    border: 1px solid #D4AF37;
+    color: #FFFFFF; /* Texto en blanco */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#contacto .form-control:focus {
+    background-color: #262626; /* Un gris más claro al enfocar */
+    border-color: #FFD700; /* Un dorado más brillante */
+    color: #FFFFFF;
+}
+
+/* Ajuste para las etiquetas del formulario */
+#contacto .form-label {
+    color: #D4AF37; /* Dorado para mayor contraste */
+    font-weight: bold;
+}
+
+/* Botón */
+#contacto .btn-primary {
+    background-color: #D4AF37;
+    border: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #b8942b;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+.text-gold {
+    color: #D4AF37;
+}
+
+.border-gold {
+    border: 2px solid #D4AF37;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #1a1a1a;
+    transition: 0.3s;
+}
+
+.social-icons a {
+    font-size: 1.5rem; /* Tamaño de los íconos */
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #D4AF37; /* Color dorado al pasar el mouse */
+    transform: scale(1.2); /* Efecto de agrandamiento */
+}
